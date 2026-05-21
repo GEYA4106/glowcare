@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlowCare</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h1>GlowCare</h1>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#benefits">Benefits</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <h2>Glow Naturally 🌿</h2>
+    <p>Premium Skin & Body Care</p>
+    <button onclick="goProducts()">Shop Now</button>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="products">
+  <h2>Our Products</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+      <div class="card-body">
+        <h3>Vitamin C Serum</h3>
+        <p>$25</p>
+      </div>
+      <div class="card-hover">
+        <button onclick="add()">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348">
+      <div class="card-body">
+        <h3>Moisturizer</h3>
+        <p>$20</p>
+      </div>
+      <div class="card-hover">
+        <button onclick="add()">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad">
+      <div class="card-body">
+        <h3>Sunscreen</h3>
+        <p>$18</p>
+      </div>
+      <div class="card-hover">
+        <button onclick="add()">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section id="benefits" class="benefits">
+  <h2>Why Choose Us?</h2>
+  <div class="benefits-container">
+    <div>🌱 Natural</div>
+    <div>🐰 Cruelty-Free</div>
+    <div>🚫 Paraben-Free</div>
+    <div>🌍 Eco-Friendly</div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <h2>Get Beauty Tips 💌</h2>
+  <input type="email" placeholder="Enter email">
+  <button>Subscribe</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 GlowCare</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
